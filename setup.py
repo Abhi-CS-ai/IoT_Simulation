@@ -1,5 +1,5 @@
 #!/usr/bin/env python
- from distutils.core import setup
+from distutils.core import setup
  setup(
  name='{IoT_Simulation}',
  version='1.0',
