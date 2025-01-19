@@ -73,9 +73,31 @@ git push origin feature/your-feature
 - Select the branch from your fork and compare it with the master branch of the original repository.
 - Provide a detailed description of your changes and submit the pull request.
 # Features
-- Smart Light: Turn ON/OFF, adjust brightness, and track energy consumption.
-- Thermostat: Set and read temperature.
-- Security Camera: Monitor motion detection and camera status.
+1. Smart Light (devices/smart_light.py)
+- Attributes:
+- status: On/Off
+- brightness: Brightness level (0-100)
+- power_consumption: Power consumption in watts
+- Actions:
+       Turn light on/off
+       Adjust brightness
+
+2. Thermostat (devices/thermostat.py)
+- Attributes:
+- current_temperature: Current temperature
+- target_temperature: Desired temperature
+- Actions:
+        Set target temperature
+        View current temperature
+
+3. Security Camera (devices/security_camera.py)
+- Attributes:
+- motion_detected: Boolean indicating motion detection
+- Actions:
+      View motion detection status
+  
+To add a new feature, create a separate branch, commit your changes, and then generate a pull request.
+
 # In the future
 => we plan to add more features, such as:
 - Data Logging: Keep track of the historical data for each device.
