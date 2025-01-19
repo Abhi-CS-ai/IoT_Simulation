@@ -1,0 +1,45 @@
+Simulating IoT Devices:
+
+You’re creating a Python app to mimic how smart devices work (like lights, thermostats, or cameras).
+Each device has its own behavior (e.g., lights can turn on/off, thermostats can set temperatures, cameras can detect motion).
+Generating Data:
+
+Random data is created to represent the real-world functioning of these devices.
+For example:
+A thermostat might show temperatures between 18°C to 28°C.
+A light might have power usage logs when turned on.
+User Control:
+
+Users interact with devices using simple commands.
+For example:
+Turn a smart light on/off.
+Change the temperature of a thermostat.
+Activate/deactivate a camera.
+Logging Data:
+
+All device activities are recorded, like a "history" or "trend."
+This includes things like:
+How much power a light used.
+Temperature changes over time for a thermostat.
+Project Goals:
+
+Make the app modular so each part (like devices, logging, or user interaction) is easy to modify or expand.
+Keep it open-source so others can contribute and improve it.
+Prepare the project for future enhancements, like adding new devices, cloud integrations, or real-time graphs.
+What’s Happening in Sprint 0?
+Setting Up the Basics:
+
+Creating a clean project folder structure to keep things organized.
+Setting up files and placeholders for code, documentation, and testing.
+Adding Dependencies:
+
+Identifying the Python libraries the project will use (e.g., argparse for commands, logging for logs).
+Creating a requirements.txt file to list these libraries for easy installation.
+Initial Documentation:
+
+Writing a README.md file to explain the purpose of the project and how to get started.
+Adding a license file (like MIT) to let others know they can freely use and contribute to the project.
+Preparing for Collaboration:
+
+Setting up a GitHub repository.
+Adding a .gitignore file to avoid tracking unnecessary files (like virtual environment files).
